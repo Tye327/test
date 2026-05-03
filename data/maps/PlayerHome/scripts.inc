@@ -8,8 +8,6 @@ PlayerHome_EventScript_Mom::
 	goto_if_eq VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 4, PlayerHome_EventScript_DontPushYourselfTooHard
 	goto_if_set FLAG_RESCUED_BIRCH, PlayerHome_EventScript_MomHealsParty
 	goto_if_eq VAR_TEMP_1, 1, PlayerHome_EventScript_SeeYouHoney
-	goto_if_eq VAR_LITTLEROOT_INTRO_STATE, 7, PlayerHome_EventScript_DidYouMeetProfBirch
-	msgbox PlayerHome_Text_IsntItNiceInHere, MSGBOX_DEFAULT
 	release
 	end
 

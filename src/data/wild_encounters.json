@@ -36582,7 +36582,7 @@
           "map": "MAP_ROUTE01",
           "base_label": "gROUTE01",
           "land_mons": {
-            "encounter_rate": 7,
+            "encounter_rate": 20,
             "mons": [
               {
                 "min_level": 5,
