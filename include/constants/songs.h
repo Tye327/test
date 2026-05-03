@@ -276,7 +276,10 @@
 #define SE_PIKE_CURTAIN_CLOSE       267 // SE_CURTAIN
 #define SE_PIKE_CURTAIN_OPEN        268 // SE_CURTAIN1
 #define SE_SUDOWOODO_SHAKE          269 // SE_USSOKI
-#define END_SE                      SE_SUDOWOODO_SHAKE
+
+//Touhou SE
+#define SE_WLD_FAINT                270
+#define END_SE                      SE_WLD_FAINT
 
 // Music
 #define START_MUS                   350
@@ -490,61 +493,180 @@
 #define MUS_RG_TRAINER_TOWER        556 // MUS_RG_T_TOWER
 #define MUS_RG_SLOW_PALLET          557 // MUS_RG_SLOWMASARA
 #define MUS_RG_TEACHY_TV_MENU       558 // MUS_RG_TVNOIZE
-#define END_MUS                     MUS_RG_TEACHY_TV_MENU
+
+//Touhou Music
+#define MUS_TPPE_VS_WILD            559
+#define MUS_WLD_GAME_CORNER         560
+#define MUS_WLD_VS_WILD             561
+#define MUS_WLD_SURF                562
+#define MUS_ZGS_FOLLOW_ME           563  // MUS_RG_ANNAI
+#define MUS_ZGS_GAME_CORNER         564  // MUS_RG_SLOT
+#define MUS_ZGS_ROCKET_HIDEOUT      565  // MUS_RG_AJITO
+#define MUS_ZGS_GYM                 566  // MUS_RG_GYM
+#define MUS_ZGS_JIGGLYPUFF          567  // MUS_RG_PURIN
+#define MUS_ZGS_INTRO_FIGHT         568  // MUS_RG_DEMO
+#define MUS_ZGS_TITLE               569  // MUS_RG_TITLE
+#define MUS_ZGS_CINNABAR            570  // MUS_RG_GUREN
+#define MUS_ZGS_LAVENDER            571  // MUS_RG_SHION
+#define MUS_ZGS_CYCLING             572  // MUS_RG_CYCLING
+#define MUS_ZGS_ENCOUNTER_ROCKET    573  // MUS_RG_ROCKET
+#define MUS_ZGS_ENCOUNTER_GIRL      574  // MUS_RG_SHOUJO
+#define MUS_ZGS_ENCOUNTER_BOY       575  // MUS_RG_SHOUNEN
+#define MUS_ZGS_HALL_OF_FAME        576  // MUS_RG_DENDOU
+#define MUS_ZGS_VIRIDIAN_FOREST     577  // MUS_RG_T_MORI
+#define MUS_ZGS_MT_MOON             578  // MUS_RG_OTSUKIMI
+#define MUS_ZGS_POKE_MANSION        579  // MUS_RG_POKEYASHI
+#define MUS_ZGS_CREDITS             580  // MUS_RG_ENDING
+#define MUS_ZGS_ROUTE1              581  // MUS_RG_LOAD01
+#define MUS_ZGS_ROUTE24             582  // MUS_RG_OPENING
+#define MUS_ZGS_ROUTE3              583  // MUS_RG_LOAD02
+#define MUS_ZGS_ROUTE11             584  // MUS_RG_LOAD03
+#define MUS_ZGS_VICTORY_ROAD        585  // MUS_RG_CHAMP_R
+#define MUS_ZGS_VS_GYM_LEADER       586  // MUS_RG_VS_GYM
+#define MUS_ZGS_VS_TRAINER          587  // MUS_RG_VS_TORE
+#define MUS_ZGS_VS_WILD             588  // MUS_RG_VS_YASEI
+#define MUS_ZGS_VS_CHAMPION         589  // MUS_RG_VS_LAST
+#define MUS_ZGS_PALLET              590  // MUS_RG_MASARA
+#define MUS_ZGS_OAK_LAB             591  // MUS_RG_KENKYU
+#define MUS_ZGS_OAK                 592  // MUS_RG_OHKIDO
+#define MUS_ZGS_POKE_CENTER         593  // MUS_RG_POKECEN
+#define MUS_ZGS_SS_ANNE             594  // MUS_RG_SANTOAN
+#define MUS_ZGS_SURF                595  // MUS_RG_NAMINORI
+#define MUS_ZGS_POKE_TOWER          596  // MUS_RG_P_TOWER
+#define MUS_ZGS_SILPH               597  // MUS_RG_SHIRUHU
+#define MUS_ZGS_FUCHSIA             598  // MUS_RG_HANADA
+#define MUS_ZGS_CELADON             599  // MUS_RG_TAMAMUSI
+#define MUS_ZGS_VICTORY_TRAINER     600  // MUS_RG_WIN_TRE       // Identical to MUS_VICTORY_TRAINER.
+#define MUS_ZGS_VICTORY_WILD        601  // MUS_RG_WIN_YASEI     // Identical to MUS_VICTORY_WILD.
+#define MUS_ZGS_VICTORY_GYM_LEADER  601  // MUS_RG_WIN_GYM       // Identical to MUS_VICTORY_GYM_LEADER.
+#define MUS_ZGS_VERMILLION          602  // MUS_RG_KUCHIBA
+#define MUS_ZGS_PEWTER              603  // MUS_RG_NIBI
+#define MUS_ZGS_ENCOUNTER_RIVAL     604  // MUS_RG_RIVAL1
+#define MUS_ZGS_CAUGHT_INTRO        605  // MUS_RG_FAN6
+#define MUS_ZGS_CAUGHT              606  // MUS_RG_GET_YASEI
+#define MUS_ZGS_CITY_OF_FLOWER      607  // MUS_RG_JUMP
+#define MUS_ZGS_END_OF_DAYLIGHT     608  // MUS_RG_UNION
+#define MUS_ZGS_BELL_OF_AVICI       609  // MUS_RG_KINOMIKUI
+#define MUS_ZGS_SEVII_CAVE          610  // MUS_RG_NANADUNGEON
+#define MUS_ZGS_SEVII_ROUTE         611  // MUS_RG_NANASHIMA
+#define MUS_ZGS_SEVII_DUNGEON       612  // MUS_RG_NANAISEKI
+#define MUS_ZGS_SEVII_123           613  // MUS_RG_NANA123
+#define MUS_ZGS_SEVII_45            614  // MUS_RG_NANA45
+#define MUS_ZGS_SEVII_67            615  // MUS_RG_NANA67
+#define MUS_ZGS_POKE_FLUTE          616  // MUS_RG_POKEFUE
+#define MUS_ZGS_VS_MIMA             617  // MUS_RG_VS_DEO
+#define MUS_ZGS_VS_SARIEL           618  // MUS_RG_VS_MYU2
+#define MUS_ZGS_VS_LEGEND           619  // MUS_RG_VS_DEN
+#define MUS_ZGS_ENCOUNTER_GYM_LEADER 620 // MUS_RG_EXEYE
+#define MUS_ZGS_ENCOUNTER_DEOXYS    621 // MUS_RG_DEOEYE
+#define MUS_ZGS_SLOW_PALLET         622  // MUS_RG_SLOWMASARA
+#define MUS_ZGS_VS_AYA              623
+#define MUS_ZGS_MARISA_SCENE        624
+#define MUS_ZGS_ENCOUNTER_MEILING   625
+#define MUS_ZGS_SCARLET_DEVIL_MANSION 626
+#define MUS_ZGS_PATCHOULI_LIBRARY   627
+#define MUS_ZGS_MEGAMARI_OPENING    628
+#define MUS_ZGS_PRISMRIVER_MANSION  629
+#define MUS_ZGS_ENCOUNTER_PRISMRIVER 630
+#define MUS_ZGS_PARADISE_DEEP_MOUNTAIN 631
+#define MUS_ZGS_ENCOUNTER_NITORI    632
+#define MUS_ZGS_ENCOUNTER_ALICE     633
+#define MUS_ZGS_VS_MARISA           634
+#define MUS_ZGS_MEGAMARI_OPENING_ALT 635
+#define MUS_ZGS_VS_YUYUKO           636
+#define MUS_ZGS_BAMBOO_FOREST       637
+#define MUS_ZGS_VS_KAGUYA           638
+#define MUS_ZGS_EIKI_ISLAND         639
+#define MUS_ZGS_VS_EIKI             640
+#define MUS_ZGS_AGTLP               641
+#define MUS_ZGS_ENCOUNTER_FAIRY     642
+#define MUS_ZGS_ENCOUNTER_TENGU     643
+#define MUS_ZGS_VS_AYA_REMATCH      644
+#define MUS_ZGS_MORIYA_SHRINE       645
+#define MUS_ZGS_DARK_BLOW_HOLE      646
+#define MUS_ZGS_END_OF_SPRING       647
+#define MUS_ZGS_VS_BYAKUREN         648
+#define MUS_ZGS_VS_SAKUYA           649
+#define MUS_ZGS_VS_MARISA_REMATCH   650
+#define MUS_ZGS_VS_REIMU            651
+#define MUS_ZGS_VS_DREAM_WILD       652
+#define MUS_ZGS_VS_DREAM_TRAINER    653
+#define MUS_ZGS_EVOLUTION_INTRO     654
+#define MUS_ZGS_EVOLUTION           655
+#define MUS_ZGS_EVOLVED             656
+#define MUS_ZGS_HEAL                657
+#define MUS_ZGS_MOVE_DELETED        658
+//Misc Music
+#define MUS_HGSS_CASINO             659
+#define MUS_CASINO_PLUS_1           660
+#define MUS_CASINO_PLUS_2           661
+#define MUS_CASINO_PLUS_3           662
+#define MUS_CASINO_PLUS_4           663
+#define MUS_CASINO_PLUS_5           664
+#define MUS_CASINO_PLUS_6           665
+#define MUS_CASINO_PLUS_7           666
+#define MUS_CASINO_PLUS_8           667
+#define MUS_CASINO_PLUS_9           668
+#define MUS_DD_SKULLER_DRILL_MISSILE 669
+#define MUS_DD_UNDERWATER           670
+//
+
+//Reserving 29 slots
+#define END_MUS                     MUS_DD_UNDERWATER
 
 // These PH_* constants are phoneme sounds used by the "bard" NPC (see src/bard_music.c and src/mauville_old_man.c).
 // Each comes in a triplet of PH_*_BLEND, PH_*_HELD, and PH_*_SOLO, and the name of each triplet incorporates the English phonetic sound it represents.
-#define PH_TRAP_BLEND               559
-#define PH_TRAP_HELD                560
-#define PH_TRAP_SOLO                561
-#define PH_FACE_BLEND               562
-#define PH_FACE_HELD                563
-#define PH_FACE_SOLO                564
-#define PH_CLOTH_BLEND              565
-#define PH_CLOTH_HELD               566
-#define PH_CLOTH_SOLO               567
-#define PH_DRESS_BLEND              568
-#define PH_DRESS_HELD               569
-#define PH_DRESS_SOLO               570
-#define PH_FLEECE_BLEND             571
-#define PH_FLEECE_HELD              572
-#define PH_FLEECE_SOLO              573
-#define PH_KIT_BLEND                574
-#define PH_KIT_HELD                 575
-#define PH_KIT_SOLO                 576
-#define PH_PRICE_BLEND              577
-#define PH_PRICE_HELD               578
-#define PH_PRICE_SOLO               579
-#define PH_LOT_BLEND                580
-#define PH_LOT_HELD                 581
-#define PH_LOT_SOLO                 582
-#define PH_GOAT_BLEND               583
-#define PH_GOAT_HELD                584
-#define PH_GOAT_SOLO                585
-#define PH_THOUGHT_BLEND            586
-#define PH_THOUGHT_HELD             587
-#define PH_THOUGHT_SOLO             588
-#define PH_CHOICE_BLEND             589
-#define PH_CHOICE_HELD              590
-#define PH_CHOICE_SOLO              591
-#define PH_MOUTH_BLEND              592
-#define PH_MOUTH_HELD               593
-#define PH_MOUTH_SOLO               594
-#define PH_FOOT_BLEND               595
-#define PH_FOOT_HELD                596
-#define PH_FOOT_SOLO                597
-#define PH_GOOSE_BLEND              598
-#define PH_GOOSE_HELD               599
-#define PH_GOOSE_SOLO               600
-#define PH_STRUT_BLEND              601
-#define PH_STRUT_HELD               602
-#define PH_STRUT_SOLO               603
-#define PH_CURE_BLEND               604
-#define PH_CURE_HELD                605
-#define PH_CURE_SOLO                606
-#define PH_NURSE_BLEND              607
-#define PH_NURSE_HELD               608
-#define PH_NURSE_SOLO               609
+#define PH_TRAP_BLEND               700
+#define PH_TRAP_HELD                701
+#define PH_TRAP_SOLO                702
+#define PH_FACE_BLEND               703
+#define PH_FACE_HELD                704
+#define PH_FACE_SOLO                705
+#define PH_CLOTH_BLEND              706
+#define PH_CLOTH_HELD               707
+#define PH_CLOTH_SOLO               708
+#define PH_DRESS_BLEND              709
+#define PH_DRESS_HELD               710
+#define PH_DRESS_SOLO               711
+#define PH_FLEECE_BLEND             712
+#define PH_FLEECE_HELD              713
+#define PH_FLEECE_SOLO              714
+#define PH_KIT_BLEND                715
+#define PH_KIT_HELD                 716
+#define PH_KIT_SOLO                 717
+#define PH_PRICE_BLEND              718
+#define PH_PRICE_HELD               719
+#define PH_PRICE_SOLO               720
+#define PH_LOT_BLEND                721
+#define PH_LOT_HELD                 722
+#define PH_LOT_SOLO                 723
+#define PH_GOAT_BLEND               724
+#define PH_GOAT_HELD                725
+#define PH_GOAT_SOLO                726
+#define PH_THOUGHT_BLEND            727
+#define PH_THOUGHT_HELD             728
+#define PH_THOUGHT_SOLO             729
+#define PH_CHOICE_BLEND             730
+#define PH_CHOICE_HELD              731
+#define PH_CHOICE_SOLO              732
+#define PH_MOUTH_BLEND              733
+#define PH_MOUTH_HELD               734
+#define PH_MOUTH_SOLO               735
+#define PH_FOOT_BLEND               736
+#define PH_FOOT_HELD                737
+#define PH_FOOT_SOLO                738
+#define PH_GOOSE_BLEND              739
+#define PH_GOOSE_HELD               740
+#define PH_GOOSE_SOLO               741
+#define PH_STRUT_BLEND              742
+#define PH_STRUT_HELD               743
+#define PH_STRUT_SOLO               744
+#define PH_CURE_BLEND               745
+#define PH_CURE_HELD                746
+#define PH_CURE_SOLO                747
+#define PH_NURSE_BLEND              748
+#define PH_NURSE_HELD               749
+#define PH_NURSE_SOLO               750
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

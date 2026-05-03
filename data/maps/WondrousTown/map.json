@@ -2,7 +2,7 @@
   "id": "MAP_WONDROUS_TOWN",
   "name": "WondrousTown",
   "layout": "LAYOUT_WONDROUS_TOWN",
-  "music": "MUS_LITTLEROOT",
+  "music": "MUS_ZGS_PALLET",
   "region_map_section": "MAPSEC_WONDROUS_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",

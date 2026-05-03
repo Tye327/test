@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE_GULF",
   "name": "RouteGulf",
   "layout": "LAYOUT_ROUTE_GULF",
-  "music": "MUS_ROUTE122",
+  "music": "MUS_ZGS_ROUTE24",
   "region_map_section": "MAPSEC_GULF",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
