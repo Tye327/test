@@ -1790,8 +1790,8 @@ static bool32 UpdateRandomTrainerRematches(const struct RematchTrainer *table, u
             // Trainer already wants a rematch. Don't bother updating it.
             return TRUE;
         }
-        else if (TrainerIsMatchCallRegistered(i) && ((Random() % 100) <= 30))
-            // 31% chance of getting a rematch.
+        else if (TrainerIsMatchCallRegistered(i))
+            // Edited to 100% chance of getting a rematch.
         {
             SetRematchIdForTrainer(table, i);
             return TRUE;
@@ -1978,22 +1978,22 @@ static bool8 WasSecondRematchWon(const struct RematchTrainer *table, u16 firstBa
 #if FREE_MATCH_CALL == FALSE
 static bool32 HasEnoughBadgesForRematch(void)
 {
-    s32 i, count;
+    //s32 i, count;     Edited for no badge requirement
 
-    for (count = 0, i = 0; i < ARRAY_COUNT(gBadgeFlags); i++)
-    {
-        if (FlagGet(gBadgeFlags[i]) == TRUE)
-        {
-            if (++count >= OW_REMATCH_BADGE_COUNT)
+    //for (count = 0, i = 0; i < ARRAY_COUNT(gBadgeFlags); i++)
+    //{
+    //    if (FlagGet(gBadgeFlags[i]) == TRUE)
+    //    {
+    //        if (++count >= OW_REMATCH_BADGE_COUNT)
                 return TRUE;
-        }
-    }
+    //    }
+    //}
 
     return FALSE;
 }
 #endif //FREE_MATCH_CALL
 
-#define STEP_COUNTER_MAX 255
+#define STEP_COUNTER_MAX 1
 
 void IncrementRematchStepCounter(void)
 {

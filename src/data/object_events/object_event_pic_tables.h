@@ -3029,3 +3029,12 @@ static const struct SpriteFrameImage sPicTable_MomFrlg[] = {
 };
 
 #endif // IS_FRLG
+
+//Touhou OW Sprites
+static const struct SpriteFrameImage sPicTable_ItemOrb[] = {
+    obj_frame_tiles(gObjectEventPic_ItemOrb),
+};
+
+static const struct SpriteFrameImage sPicTable_TMOrb[] = {
+    obj_frame_tiles(gObjectEventPic_TMOrb),
+};
