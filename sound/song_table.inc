@@ -565,68 +565,6 @@ gSongTable::
 	song mus_rg_trainer_tower, MUSIC_PLAYER_BGM, 0
 	song mus_rg_slow_pallet, MUSIC_PLAYER_BGM, 0
 	song mus_rg_teachy_tv_menu, MUSIC_PLAYER_BGM, 0
-	song ph_trap_blend, MUSIC_PLAYER_SE2, 2
-	song ph_trap_held, MUSIC_PLAYER_SE2, 2
-	song ph_trap_solo, MUSIC_PLAYER_SE2, 2
-	song ph_face_blend, MUSIC_PLAYER_SE2, 2
-	song ph_face_held, MUSIC_PLAYER_SE2, 2
-	song ph_face_solo, MUSIC_PLAYER_SE2, 2
-	song ph_cloth_blend, MUSIC_PLAYER_SE2, 2
-	song ph_cloth_held, MUSIC_PLAYER_SE2, 2
-	song ph_cloth_solo, MUSIC_PLAYER_SE2, 2
-	song ph_dress_blend, MUSIC_PLAYER_SE2, 2
-	song ph_dress_held, MUSIC_PLAYER_SE2, 2
-	song ph_dress_solo, MUSIC_PLAYER_SE2, 2
-	song ph_fleece_blend, MUSIC_PLAYER_SE2, 2
-	song ph_fleece_held, MUSIC_PLAYER_SE2, 2
-	song ph_fleece_solo, MUSIC_PLAYER_SE2, 2
-	song ph_kit_blend, MUSIC_PLAYER_SE2, 2
-	song ph_kit_held, MUSIC_PLAYER_SE2, 2
-	song ph_kit_solo, MUSIC_PLAYER_SE2, 2
-	song ph_price_blend, MUSIC_PLAYER_SE2, 2
-	song ph_price_held, MUSIC_PLAYER_SE2, 2
-	song ph_price_solo, MUSIC_PLAYER_SE2, 2
-	song ph_lot_blend, MUSIC_PLAYER_SE2, 2
-	song ph_lot_held, MUSIC_PLAYER_SE2, 2
-	song ph_lot_solo, MUSIC_PLAYER_SE2, 2
-	song ph_goat_blend, MUSIC_PLAYER_SE2, 2
-	song ph_goat_held, MUSIC_PLAYER_SE2, 2
-	song ph_goat_solo, MUSIC_PLAYER_SE2, 2
-	song ph_thought_blend, MUSIC_PLAYER_SE2, 2
-	song ph_thought_held, MUSIC_PLAYER_SE2, 2
-	song ph_thought_solo, MUSIC_PLAYER_SE2, 2
-	song ph_choice_blend, MUSIC_PLAYER_SE2, 2
-	song ph_choice_held, MUSIC_PLAYER_SE2, 2
-	song ph_choice_solo, MUSIC_PLAYER_SE2, 2
-	song ph_mouth_blend, MUSIC_PLAYER_SE2, 2
-	song ph_mouth_held, MUSIC_PLAYER_SE2, 2
-	song ph_mouth_solo, MUSIC_PLAYER_SE2, 2
-	song ph_foot_blend, MUSIC_PLAYER_SE2, 2
-	song ph_foot_held, MUSIC_PLAYER_SE2, 2
-	song ph_foot_solo, MUSIC_PLAYER_SE2, 2
-	song ph_goose_blend, MUSIC_PLAYER_SE2, 2
-	song ph_goose_held, MUSIC_PLAYER_SE2, 2
-	song ph_goose_solo, MUSIC_PLAYER_SE2, 2
-	song ph_strut_blend, MUSIC_PLAYER_SE2, 2
-	song ph_strut_held, MUSIC_PLAYER_SE2, 2
-	song ph_strut_solo, MUSIC_PLAYER_SE2, 2
-	song ph_cure_blend, MUSIC_PLAYER_SE2, 2
-	song ph_cure_held, MUSIC_PLAYER_SE2, 2
-	song ph_cure_solo, MUSIC_PLAYER_SE2, 2
-	song ph_nurse_blend, MUSIC_PLAYER_SE2, 2
-	song ph_nurse_held, MUSIC_PLAYER_SE2, 2
-	song ph_nurse_solo, MUSIC_PLAYER_SE2, 2
-	song mus_hgss_casino, MUSIC_PLAYER_BGM, 0
-	song mus_casino_plus_1, MUSIC_PLAYER_BGM, 0
-	song mus_casino_plus_2, MUSIC_PLAYER_BGM, 0
-	song mus_casino_plus_3, MUSIC_PLAYER_BGM, 0
-	song mus_casino_plus_4, MUSIC_PLAYER_BGM, 0
-	song mus_casino_plus_5, MUSIC_PLAYER_BGM, 0
-	song mus_casino_plus_6, MUSIC_PLAYER_BGM, 0
-	song mus_casino_plus_7, MUSIC_PLAYER_BGM, 0
-	song mus_casino_plus_8, MUSIC_PLAYER_BGM, 0
-	song mus_casino_plus_9, MUSIC_PLAYER_BGM, 0
-	song mus_casino_plus_gacha, MUSIC_PLAYER_BGM, 0
 	song mus_tppe_vs_wild, MUSIC_PLAYER_BGM, 0
 	song mus_wld_game_corner, MUSIC_PLAYER_BGM, 0
 	song mus_wld_vs_wild, MUSIC_PLAYER_BGM, 0
@@ -728,8 +666,70 @@ gSongTable::
 	song mus_zgs_evolved, MUSIC_PLAYER_SE2, 2
 	song mus_zgs_heal, MUSIC_PLAYER_SE2, 2
 	song mus_zgs_move_deleted, MUSIC_PLAYER_SE2, 2
+	song mus_hgss_casino, MUSIC_PLAYER_BGM, 0
+	song mus_casino_plus_1, MUSIC_PLAYER_BGM, 0
+	song mus_casino_plus_2, MUSIC_PLAYER_BGM, 0
+	song mus_casino_plus_3, MUSIC_PLAYER_BGM, 0
+	song mus_casino_plus_4, MUSIC_PLAYER_BGM, 0
+	song mus_casino_plus_5, MUSIC_PLAYER_BGM, 0
+	song mus_casino_plus_6, MUSIC_PLAYER_BGM, 0
+	song mus_casino_plus_7, MUSIC_PLAYER_BGM, 0
+	song mus_casino_plus_8, MUSIC_PLAYER_BGM, 0
+	song mus_casino_plus_9, MUSIC_PLAYER_BGM, 0
+	song mus_casino_plus_gacha, MUSIC_PLAYER_BGM, 0
 	song mus_dd_skuller_drill_missile, MUSIC_PLAYER_BGM, 0
 	song mus_dd_underwater, MUSIC_PLAYER_BGM, 0
+	song ph_trap_blend, MUSIC_PLAYER_SE2, 2
+	song ph_trap_held, MUSIC_PLAYER_SE2, 2
+	song ph_trap_solo, MUSIC_PLAYER_SE2, 2
+	song ph_face_blend, MUSIC_PLAYER_SE2, 2
+	song ph_face_held, MUSIC_PLAYER_SE2, 2
+	song ph_face_solo, MUSIC_PLAYER_SE2, 2
+	song ph_cloth_blend, MUSIC_PLAYER_SE2, 2
+	song ph_cloth_held, MUSIC_PLAYER_SE2, 2
+	song ph_cloth_solo, MUSIC_PLAYER_SE2, 2
+	song ph_dress_blend, MUSIC_PLAYER_SE2, 2
+	song ph_dress_held, MUSIC_PLAYER_SE2, 2
+	song ph_dress_solo, MUSIC_PLAYER_SE2, 2
+	song ph_fleece_blend, MUSIC_PLAYER_SE2, 2
+	song ph_fleece_held, MUSIC_PLAYER_SE2, 2
+	song ph_fleece_solo, MUSIC_PLAYER_SE2, 2
+	song ph_kit_blend, MUSIC_PLAYER_SE2, 2
+	song ph_kit_held, MUSIC_PLAYER_SE2, 2
+	song ph_kit_solo, MUSIC_PLAYER_SE2, 2
+	song ph_price_blend, MUSIC_PLAYER_SE2, 2
+	song ph_price_held, MUSIC_PLAYER_SE2, 2
+	song ph_price_solo, MUSIC_PLAYER_SE2, 2
+	song ph_lot_blend, MUSIC_PLAYER_SE2, 2
+	song ph_lot_held, MUSIC_PLAYER_SE2, 2
+	song ph_lot_solo, MUSIC_PLAYER_SE2, 2
+	song ph_goat_blend, MUSIC_PLAYER_SE2, 2
+	song ph_goat_held, MUSIC_PLAYER_SE2, 2
+	song ph_goat_solo, MUSIC_PLAYER_SE2, 2
+	song ph_thought_blend, MUSIC_PLAYER_SE2, 2
+	song ph_thought_held, MUSIC_PLAYER_SE2, 2
+	song ph_thought_solo, MUSIC_PLAYER_SE2, 2
+	song ph_choice_blend, MUSIC_PLAYER_SE2, 2
+	song ph_choice_held, MUSIC_PLAYER_SE2, 2
+	song ph_choice_solo, MUSIC_PLAYER_SE2, 2
+	song ph_mouth_blend, MUSIC_PLAYER_SE2, 2
+	song ph_mouth_held, MUSIC_PLAYER_SE2, 2
+	song ph_mouth_solo, MUSIC_PLAYER_SE2, 2
+	song ph_foot_blend, MUSIC_PLAYER_SE2, 2
+	song ph_foot_held, MUSIC_PLAYER_SE2, 2
+	song ph_foot_solo, MUSIC_PLAYER_SE2, 2
+	song ph_goose_blend, MUSIC_PLAYER_SE2, 2
+	song ph_goose_held, MUSIC_PLAYER_SE2, 2
+	song ph_goose_solo, MUSIC_PLAYER_SE2, 2
+	song ph_strut_blend, MUSIC_PLAYER_SE2, 2
+	song ph_strut_held, MUSIC_PLAYER_SE2, 2
+	song ph_strut_solo, MUSIC_PLAYER_SE2, 2
+	song ph_cure_blend, MUSIC_PLAYER_SE2, 2
+	song ph_cure_held, MUSIC_PLAYER_SE2, 2
+	song ph_cure_solo, MUSIC_PLAYER_SE2, 2
+	song ph_nurse_blend, MUSIC_PLAYER_SE2, 2
+	song ph_nurse_held, MUSIC_PLAYER_SE2, 2
+	song ph_nurse_solo, MUSIC_PLAYER_SE2, 2
 
 	.align 2
 dummy_song_header:
