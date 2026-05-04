@@ -137,7 +137,7 @@
     "Underwater_Route125",
     "WondrousTown",
     "RouteGulf",
-    "ROUTE01"
+    "ROUTE_1T"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -1167,6 +1167,6 @@
   ],
   "gMapGroup_IndoorWondrous": [
     "PlayerHome",
-    "PlayerRoom"
+    "WondrousLab"
   ]
 }

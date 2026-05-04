@@ -1632,11 +1632,11 @@
       "name": "Wondrous Town"
     },
     {
-      "id": "MAPSEC_ROUTE_01",
-      "name": "Route 01"
+      "id": "MAPSEC_GULF"
     },
     {
-      "id": "MAPSEC_GULF"
+      "id": "MAPSEC_ROUTE_1T",
+      "name": "Route 1"
     }
   ]
 }
