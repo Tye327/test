@@ -75,7 +75,9 @@
     "gMapGroup_IndoorTwoIslandRoute_Frlg",
     "gMapGroup_IndoorSixIslandRoute_Frlg",
     "gMapGroup_IndoorSevenIslandRoute_Frlg",
-    "gMapGroup_IndoorWondrous"
+    "gMapGroup_IndoorWondrous",
+    "gMapGroup_Towns_T",
+    "gMapGroup_Routes_T"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -134,10 +136,7 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125",
-    "WondrousTown",
-    "RouteGulf",
-    "ROUTE_1T"
+    "Underwater_Route125"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -926,7 +925,6 @@
   ],
   "gMapGroup_IndoorPallet_Frlg": [
     "PalletTown_PlayersHouse_1F_Frlg",
-    "PalletTown_PlayersHouse_2F_Frlg",
     "PalletTown_RivalsHouse_Frlg",
     "PalletTown_ProfessorOaksLab_Frlg"
   ],
@@ -1166,7 +1164,15 @@
     "SevenIsland_SevaultCanyon_House_Frlg"
   ],
   "gMapGroup_IndoorWondrous": [
+    "PalletTown_PlayersHouse_2F_Frlg",
     "PlayerHome",
     "WondrousLab"
+  ],
+  "gMapGroup_Towns_T": [
+    "WondrousTown"
+  ],
+  "gMapGroup_Routes_T": [
+    "RouteGulf",
+    "ROUTE_1T"
   ]
 }

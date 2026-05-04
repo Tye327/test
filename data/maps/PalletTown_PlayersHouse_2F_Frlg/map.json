@@ -21,7 +21,7 @@
       "y": 2,
       "elevation": 3,
       "dest_map": "MAP_PLAYER_HOME",
-      "dest_warp_id": "1"
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [],
