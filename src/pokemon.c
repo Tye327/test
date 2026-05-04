@@ -5759,7 +5759,7 @@ u16 GetBattleBGM(void)
 {
     if (gBattleTypeFlags & BATTLE_TYPE_LEGENDARY)
     {
-        switch (GetMonData(&gEnemyParty[0], MON_DATA_SPECIES))
+        switch (GetMonData(&gEnemyParty[0], MON_DATA_SPECIES))//Todo Touhou
         {
         case SPECIES_RAYQUAZA:
             return MUS_VS_RAYQUAZA;
@@ -5774,12 +5774,12 @@ u16 GetBattleBGM(void)
         case SPECIES_REGIDRAGO:
             return MUS_VS_REGI;
         default:
-            return MUS_RG_VS_LEGEND;
+            return MUS_ZGS_VS_LEGEND;
         }
     }
     else if (gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK))
     {
-        return MUS_VS_TRAINER;
+        return MUS_ZGS_VS_DREAM_TRAINER;
     }
     else if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
     {
@@ -5803,22 +5803,22 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_MAGMA_ADMIN:
             return MUS_VS_AQUA_MAGMA;
         case TRAINER_CLASS_LEADER:
-            return MUS_VS_GYM_LEADER;
+            return MUS_ZGS_VS_GYM_LEADER;
         case TRAINER_CLASS_CHAMPION:
-            return MUS_VS_CHAMPION;
+            return MUS_ZGS_VS_CHAMPION;
         case TRAINER_CLASS_RIVAL:
             if (gBattleTypeFlags & BATTLE_TYPE_FRONTIER)
-                return MUS_VS_RIVAL;
+                return MUS_ZGS_VS_MARISA_REMATCH;
             if (!StringCompare(GetTrainerNameFromId(TRAINER_BATTLE_PARAM.opponentA), gText_BattleWallyName))
                 return MUS_VS_TRAINER;
-            return MUS_VS_RIVAL;
+            return MUS_ZGS_VS_MARISA_REMATCH;
         case TRAINER_CLASS_ELITE_FOUR:
-            return MUS_VS_ELITE_FOUR;
+            return MUS_ZGS_VS_YUYUKO;
         case TRAINER_CLASS_CHAMPION_FRLG:
-            return MUS_RG_VS_CHAMPION;
+            return MUS_ZGS_VS_CHAMPION;
         case TRAINER_CLASS_LEADER_FRLG:
         case TRAINER_CLASS_ELITE_FOUR_FRLG:
-            return MUS_RG_VS_GYM_LEADER;
+            return MUS_ZGS_VS_BYAKUREN;
         case TRAINER_CLASS_SALON_MAIDEN:
         case TRAINER_CLASS_DOME_ACE:
         case TRAINER_CLASS_PALACE_MAVEN:
@@ -5826,20 +5826,20 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_FACTORY_HEAD:
         case TRAINER_CLASS_PIKE_QUEEN:
         case TRAINER_CLASS_PYRAMID_KING:
-            return MUS_VS_FRONTIER_BRAIN;
+            return MUS_ZGS_VS_SAKUYA;
         default:
             if (GetCurrentRegion() == REGION_KANTO)
-                return MUS_RG_VS_TRAINER;
+                return MUS_ZGS_VS_TRAINER;
             else
-                return MUS_VS_TRAINER;
+                return MUS_ZGS_VS_DREAM_TRAINER;
         }
     }
     else
     {
         if (GetCurrentRegion() == REGION_KANTO)
-            return MUS_RG_VS_WILD;
+            return MUS_ZGS_VS_WILD;
         else
-            return MUS_VS_WILD;
+            return MUS_ZGS_VS_DREAM_WILD;
     }
 }
 
