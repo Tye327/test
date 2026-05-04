@@ -48,17 +48,17 @@
   ],
   "warp_events": [
     {
-      "x": 4,
-      "y": 8,
-      "elevation": 0,
-      "dest_map": "MAP_WONDROUS_TOWN",
-      "dest_warp_id": "0"
-    },
-    {
       "x": 10,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_2F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_WONDROUS_LAB",
       "dest_warp_id": "0"
     }
   ],
