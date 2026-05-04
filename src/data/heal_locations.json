@@ -351,14 +351,6 @@
       "respawn_npc": "LOCALID_SIX_ISLAND_NURSE"
     },
     {
-      "id": "HEAL_LOCATION_PETALBURG_CITY_2",
-      "map": "MAP_PETALBURG_CITY",
-      "x": 15,
-      "y": 15,
-      "respawn_map": "",
-      "respawn_npc": ""
-    },
-    {
       "id": "HEAL_LOCATION_WONDROUS_TOWN",
       "map": "MAP_WONDROUS_TOWN",
       "x": 9,
