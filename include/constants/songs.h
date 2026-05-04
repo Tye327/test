@@ -607,8 +607,9 @@
 #define MUS_CASINO_PLUS_7           667
 #define MUS_CASINO_PLUS_8           668
 #define MUS_CASINO_PLUS_9           669
-#define MUS_DD_SKULLER_DRILL_MISSILE 670
-#define MUS_DD_UNDERWATER           671
+#define MUS_CASINO_PLUS_GACHA       670
+#define MUS_DD_SKULLER_DRILL_MISSILE 671
+#define MUS_DD_UNDERWATER           672
 //
 #define END_MUS                     MUS_DD_UNDERWATER
 
