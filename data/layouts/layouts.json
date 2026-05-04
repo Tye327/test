@@ -10216,7 +10216,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_PalletTown",
       "border_filepath": "data/layouts/WondrousTown/border.bin",
-      "blockdata_filepath": "data/layouts/WondrousTown/map.bin"
+      "blockdata_filepath": "data/layouts/WondrousTown/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE_GULF",
@@ -10228,7 +10229,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_PalletTown",
       "border_filepath": "data/layouts/RouteGulf/border.bin",
-      "blockdata_filepath": "data/layouts/RouteGulf/map.bin"
+      "blockdata_filepath": "data/layouts/RouteGulf/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_PLAYER_HOME",
@@ -10240,19 +10242,8 @@
       "primary_tileset": "gTileset_BuildingFrlg",
       "secondary_tileset": "gTileset_GenericBuilding1",
       "border_filepath": "data/layouts/PlayerHome/border.bin",
-      "blockdata_filepath": "data/layouts/PlayerHome/map.bin"
-    },
-    {
-      "id": "LAYOUT_PLAYER_ROOM",
-      "name": "PlayerRoom_Layout",
-      "width": 9,
-      "height": 8,
-      "border_width": 0,
-      "border_height": 0,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
-      "border_filepath": "data/layouts/PlayerRoom/border.bin",
-      "blockdata_filepath": "data/layouts/PlayerRoom/map.bin"
+      "blockdata_filepath": "data/layouts/PlayerHome/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_ROUTE_1T",
@@ -10264,7 +10255,8 @@
       "primary_tileset": "gTileset_General_Frlg",
       "secondary_tileset": "gTileset_PalletTown",
       "border_filepath": "data/layouts/ROUTE_1T/border.bin",
-      "blockdata_filepath": "data/layouts/ROUTE_1T/map.bin"
+      "blockdata_filepath": "data/layouts/ROUTE_1T/map.bin",
+      "layout_version": "frlg"
     },
     {
       "id": "LAYOUT_WONDROUS_LAB",
@@ -10276,7 +10268,8 @@
       "primary_tileset": "gTileset_BuildingFrlg",
       "secondary_tileset": "gTileset_Lab_Frlg",
       "border_filepath": "data/layouts/WondrousLab/border.bin",
-      "blockdata_filepath": "data/layouts/WondrousLab/map.bin"
+      "blockdata_filepath": "data/layouts/WondrousLab/map.bin",
+      "layout_version": "frlg"
     }
   ]
 }
