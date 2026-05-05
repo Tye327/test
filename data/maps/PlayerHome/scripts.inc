@@ -1,9 +1,9 @@
 PlayerHome_MapScripts::
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, WondrousLab_OnWarp
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PlayerHome_OnWarp
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, PlayerHome_OnFrame
 	.byte 0
 
-WondrousLab_OnWarp::
+PlayerHome_OnWarp::
 	map_script_2 VAR_MAP_SCENE_WONDROUS_LAB, 0, PlayerHome_EventScript_PrepareStarter
 	.2byte 0
 
