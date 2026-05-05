@@ -2,7 +2,7 @@ PlayerHome_MapScripts::
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PlayerHome_OnWarp
 	.byte 0
 
-PlayerHome_EventScript_OnWarp::
+PlayerHome_OnWarp::
 	goto_if_eq VAR_MAP_SCENE_WONDROUS_LAB, 0, PlayerHome_EventScript_MomStarter
 	end
 
