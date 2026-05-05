@@ -119,7 +119,7 @@ WondrousLab_EventScript_ConfirmMarisa::
 	goto_if_eq VAR_RESULT, NO, WondrousLab_EventScript_DeclinedStarter
 	end
 
-WondrousLab_EventScript_ConfirmSsakuya::
+WondrousLab_EventScript_ConfirmSakuya::
 	msgbox WondrousLab_Text_ProfChoosingSakuya, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, WondrousLab_EventScript_ChoseStarter
 	goto_if_eq VAR_RESULT, NO, WondrousLab_EventScript_DeclinedStarter
