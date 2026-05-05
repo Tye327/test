@@ -1,10 +1,15 @@
 PlayerHome_MapScripts::
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PlayerHome_OnWarp
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, WondrousLab_OnWarp
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, PlayerHome_OnFrame
 	.byte 0
 
-PlayerHome_OnWarp::
-	goto_if_eq VAR_MAP_SCENE_WONDROUS_LAB, 0, PlayerHome_EventScript_MomStarter
-	end
+WondrousLab_OnWarp::
+	map_script_2 VAR_MAP_SCENE_WONDROUS_LAB, 0, PlayerHome_EventScript_PrepareStarter
+	.2byte 0
+
+PlayerHome_OnFrame::
+	map_script_2 VAR_MAP_SCENE_WONDROUS_LAB, 0, PlayerHome_EventScript_MomStarter
+	.byte 0
 
 PlayerHome_EventScript_Mom::
 	lock
@@ -21,10 +26,15 @@ PlayerHome_EventScript_MomHeal::
 	release
 	end
 
+PlayerHome_EventScript_PreparePlayerForStarterScene::
+	turnobject LOCALID_PLAYER, DIR_SOUTH
+	end
+
 PlayerHome_EventScript_MomStarter::
 	msgbox PlayerHome_Text_TodaysTheDay
 	applymovement LOCAL_ID_PLAYER_HOME_MOM, PlayerHome_Movement_MomApproach
 	msgbox PlayerHome_Text_LetsGo
+	setvar VAR_MAP_SCENE_WONDROUS_LAB, 1
 	warp MAP_WONDROUS_LAB, 8, 5
 	end
 

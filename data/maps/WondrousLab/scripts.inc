@@ -194,6 +194,20 @@ WondrousLab_EventScript_AfterStarterChoice::
 	release
 	end
 
+WondrousLab_EventScript_Prof::
+	lockall
+	msgbox WondrousLab_Text_ProfFiveMonsChooseOne
+	closemessage
+	releaseall
+	end
+
+WondrousLab_EventScript_MomExciting::
+	lockall
+	msgbox WondrousLab_Text_MomExciting
+	closemessage
+	releaseall
+	end
+
 WondrousLab_Movement_ProfTakesExtraStarters::
 	walk_right
 	walk_right
