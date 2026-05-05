@@ -159,6 +159,7 @@ WondrousLab_EventScript_ChoseStarter::
 	waitfanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, WondrousLab_EventScript_GiveNicknameToStarter
+	closemessage
 	goto WondrousLab_EventScript_AfterStarterChoice
 	end
 
@@ -190,6 +191,7 @@ WondrousLab_EventScript_AfterStarterChoice::
 	giveitem_msg WondrousLab_Text_ReceivedFivePuppetOrbs, ITEM_POKE_BALL, 5
 	giveitem_msg WondrousLab_Text_ReceivedSafariVoucher, ITEM_POKE_BALL, 1
 	msgbox WondrousLab_Text_MomLeave
+	closemessage
 	applymovement LOCALID_LAB_MOM, WondrousLab_Movement_MomLeave
 	waitmovement 0
 	removeobject LOCALID_LAB_MOM
