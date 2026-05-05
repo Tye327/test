@@ -1,5 +1,10 @@
 PlayerHome_MapScripts::
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PlayerHome_OnWarp
 	.byte 0
+
+PlayerHome_EventScript_OnWarp::
+	goto_if_eq VAR_MAP_SCENE_WONDROUS_LAB, 0, PlayerHome_EventScript_MomStarter
+	end
 
 PlayerHome_EventScript_Mom::
 	lock
@@ -21,6 +26,7 @@ PlayerHome_EventScript_MomStarter::
 	applymovement LOCAL_ID_PLAYER_HOME_MOM, PlayerHome_Movement_MomApproach
 	msgbox PlayerHome_Text_LetsGo
 	warp MAP_WONDROUS_LAB, 8, 5
+	end
 
 PlayerHome_EventScript_Yukari::
 	lock

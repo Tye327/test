@@ -2,9 +2,6 @@
 .equ PLAYER_STARTER_SPECIES,  VAR_TEMP_2
 
 WondrousLab_MapScripts::
-	.byte 0
-
-WondrousLab_MapScripts::
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, WondrousLab_OnWarp
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, WondrousLab_OnFrame
 	.byte 0
