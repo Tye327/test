@@ -159,12 +159,13 @@ WondrousLab_EventScript_ChoseStarter::
 	waitfanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, WondrousLab_EventScript_GiveNicknameToStarter
+	goto WondrousLab_EventScript_AfterStarterChoice
 	end
 
 WondrousLab_EventScript_GiveNicknameToStarter::
 	setvar VAR_0x8004, 0
 	call Common_EventScript_NameReceivedPartyMon
-	end
+	return
 
 WondrousLab_EventScript_AfterStarterChoice::
 	applymovement LOCALID_WLAB_PROF, WondrousLab_Movement_ProfTakesExtraStarters
