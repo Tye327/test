@@ -190,6 +190,7 @@ WondrousLab_EventScript_AfterStarterChoice::
 	msgbox WondrousLab_Text_MomLeave
 	applymovement LOCALID_LAB_MOM, WondrousLab_Movement_MomLeave
 	waitmovement 0
+	removeobject LOCALID_LAB_MOM
 	setvar VAR_MAP_SCENE_WONDROUS_LAB, 2
 	release
 	end
