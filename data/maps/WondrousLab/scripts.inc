@@ -218,12 +218,10 @@ WondrousLab_Movement_ProfTakesExtraStarters::
 	walk_right
 	walk_right
 	walk_right
-	walk_right
 	walk_in_place_faster_down
 	step_end
 
 WondrousLab_Movement_ProfWalksBack::
-	walk_left
 	walk_left
 	walk_left
 	walk_left
@@ -335,7 +333,7 @@ WondrousLab_Text_AfterStarterChoice::
 WondrousLab_Text_MomGifts::
 	.string "MOM: To celebrate the start of\p"
 	.string "your adventure…\p"
-	.string "I have some gifts for you!\p"
+	.string "I have some gifts for you!\$"
 
 WondrousLab_Text_MomLeave::
 	.string "MOM: I'm sure you know what\p"
