@@ -32,8 +32,11 @@ PlayerHome_EventScript_PreparePlayerForStarterScene::
 
 PlayerHome_EventScript_MomStarter::
 	msgbox PlayerHome_Text_TodaysTheDay
+	closemessage
 	applymovement LOCAL_ID_PLAYER_HOME_MOM, PlayerHome_Movement_MomApproach
+	waitmovement 0
 	msgbox PlayerHome_Text_LetsGo
+	closemessage
 	setvar VAR_MAP_SCENE_WONDROUS_LAB, 1
 	warp MAP_WONDROUS_LAB, 8, 5
 	end
