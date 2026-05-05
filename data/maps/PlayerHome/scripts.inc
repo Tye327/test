@@ -4,7 +4,7 @@ PlayerHome_MapScripts::
 	.byte 0
 
 PlayerHome_OnWarp::
-	map_script_2 VAR_MAP_SCENE_WONDROUS_LAB, 0, PlayerHome_EventScript_PrepareStarter
+	map_script_2 VAR_MAP_SCENE_WONDROUS_LAB, 0, PlayerHome_EventScript_PreparePlayerForStarterScene
 	.2byte 0
 
 PlayerHome_OnFrame::
