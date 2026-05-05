@@ -240,7 +240,7 @@ WondrousLab_Movement_MomLeave::
 	walk_down
 	step_end
 
-WondrousLab_Text_ProfFiveMonsChooseOne
+WondrousLab_Text_ProfFiveMonsChooseOne::
 	.string "Here, {PLAYER}.\p"
 	.string "There are five Puppets here.\p"
 	.string "Haha!\p"
