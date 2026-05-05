@@ -39,8 +39,9 @@ PlayerHome_EventScript_MomStarter::
 	waitmovement 0
 	msgbox PlayerHome_Text_LetsGo
 	closemessage
-	setvar VAR_MAP_SCENE_WONDROUS_LAB, 1
 	warp MAP_WONDROUS_LAB, 8, 5
+	waitstate
+	releaseall
 	end
 
 PlayerHome_EventScript_Yukari::
