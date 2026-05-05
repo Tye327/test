@@ -16,6 +16,12 @@ PlayerHome_EventScript_MomHeal::
 	release
 	end
 
+PlayerHome_EventScript_MomStarter::
+	msgbox PlayerHome_Text_TodaysTheDay
+	applymovement LOCAL_ID_PLAYER_HOME_MOM, PlayerHome_Movement_MomApproach
+	msgbox PlayerHome_Text_LetsGo
+	warp MAP_WONDROUS_LAB, 8, 5
+
 PlayerHome_EventScript_Yukari::
 	lock
 	faceplayer
@@ -38,13 +44,21 @@ PlayerHome_Text_YouShouldTakeQuickRest::
 
 PlayerHome_Text_LookingGreatTakeCare::
 	.string "MOM: Oh, good! You and your\n"
-	.string "POKéMON are looking great.\l"
-	.string "Take care now!$"
+	.string "Puppets are looking great.\l"
+	.string "Take care, honey!$"
 
 PlayerHome_Text_DontPushYourselfTooHard:
 	.string "Don't push yourself too hard, dear.\n"
 	.string "You can always come home.\p"
 	.string "Go for it, honey!$"
+
+PlayerHome_Text_TodaysTheDay::
+	.string "MOM: {PLAYER}!\p"
+	.string "Today's the day you get to\n"
+	.string "choose your starter Puppet!$"
+
+PlayerHome_Text_LetsGo::
+	.string "MOM: Let's go!\n$"
 
 PlayerHome_Text_Yukari:
 	.string "Yu!$"

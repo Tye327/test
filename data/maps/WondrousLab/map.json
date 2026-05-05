@@ -19,7 +19,7 @@
       "local_id": "LOCALID_REIMU_ORB",
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_ORB",
-      "x": 8,
+      "x": 10,
       "y": 4,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -34,7 +34,7 @@
       "local_id": "LOCALID_MARISA_ORB",
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_ORB",
-      "x": 9,
+      "x": 11,
       "y": 4,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -49,7 +49,7 @@
       "local_id": "LOCALID_SAKUYA_ORB",
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_ORB",
-      "x": 10,
+      "x": 12,
       "y": 4,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -64,7 +64,7 @@
       "local_id": "LOCALID_YOUMU_ORB",
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_ORB",
-      "x": 11,
+      "x": 13,
       "y": 4,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -79,7 +79,7 @@
       "local_id": "LOCALID_SANAE_ORB",
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_ORB",
-      "x": 12,
+      "x": 14,
       "y": 4,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -94,7 +94,7 @@
       "local_id": "LOCALID_WLAB_PROF",
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PROF_OAK",
-      "x": 6,
+      "x": 8,
       "y": 3,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -109,7 +109,7 @@
       "local_id": "LOCALID_LAB_MOM",
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_GLACIA",
-      "x": 5,
+      "x": 7,
       "y": 4,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -123,14 +123,78 @@
   ],
   "warp_events": [
     {
-      "x": 6,
+      "x": 7,
       "y": 12,
       "elevation": 0,
       "dest_map": "MAP_WONDROUS_TOWN",
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_MAP_SCENE_WONDROUS_LAB",
+      "var_value": "1",
+      "script": "WondrousLab_EventScript_WhereAreYouGoingUp"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_MAP_SCENE_WONDROUS_LAB",
+      "var_value": "1",
+      "script": "WondrousLab_EventScript_WhereAreYouGoingUp"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_MAP_SCENE_WONDROUS_LAB",
+      "var_value": "1",
+      "script": "WondrousLab_EventScript_WhereAreYouGoingUp"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_MAP_SCENE_WONDROUS_LAB",
+      "var_value": "1",
+      "script": "WondrousLab_EventScript_WhereAreYouGoingRight"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_MAP_SCENE_WONDROUS_LAB",
+      "var_value": "1",
+      "script": "WondrousLab_EventScript_WhereAreYouGoingRight"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_MAP_SCENE_WONDROUS_LAB",
+      "var_value": "1",
+      "script": "WondrousLab_EventScript_WhereAreYouGoingRight"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 4,
+      "elevation": 0,
+      "var": "VAR_MAP_SCENE_WONDROUS_LAB",
+      "var_value": "1",
+      "script": "WondrousLab_EventScript_WhereAreYouGoingDown"
+    }
+  ],
   "bg_events": [],
   "region": "REGION_KANTO"
 }
