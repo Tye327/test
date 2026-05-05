@@ -333,7 +333,7 @@ WondrousLab_Text_AfterStarterChoice::
 WondrousLab_Text_MomGifts::
 	.string "MOM: To celebrate the start of\p"
 	.string "your adventure…\p"
-	.string "I have some gifts for you!\$"
+	.string "I have some gifts for you!$"
 
 WondrousLab_Text_MomLeave::
 	.string "MOM: I'm sure you know what\p"
