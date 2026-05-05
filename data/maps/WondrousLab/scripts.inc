@@ -7,7 +7,7 @@ WondrousLab_MapScripts::
 	.byte 0
 
 WondrousLab_OnWarp::
-	map_script_2 VAR_MAP_SCENE_WONDROUS_LAB, 1, WondrousLab_EventScript_ReadyPlayerForStarterScene
+	map_script_2 VAR_MAP_SCENE_WONDROUS_LAB, 0, WondrousLab_EventScript_ReadyPlayerForStarterScene
 	.2byte 0
 
 WondrousLab_EventScript_ReadyPlayerForStarterScene::
@@ -15,11 +15,12 @@ WondrousLab_EventScript_ReadyPlayerForStarterScene::
 	end
 
 WondrousLab_OnFrame::
-	map_script_2 VAR_MAP_SCENE_WONDROUS_LAB, 1, WondrousLab_ChooseStarterScene
+	map_script_2 VAR_MAP_SCENE_WONDROUS_LAB, 0, WondrousLab_ChooseStarterScene
 	.2byte 0
 
 WondrousLab_ChooseStarterScene::
 	lockall
+	setvar VAR_MAP_SCENE_WONDROUS_LAB, 1
 	msgbox WondrousLab_Text_ProfFiveMonsChooseOne
 	msgbox WondrousLab_Text_MomExciting
 	closemessage

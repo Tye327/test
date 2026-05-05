@@ -31,7 +31,6 @@ PlayerHome_EventScript_PreparePlayerForStarterScene::
 	end
 
 PlayerHome_EventScript_MomStarter::
-	setvar VAR_MAP_SCENE_WONDROUS_LAB, 1
 	applymovement LOCAL_ID_PLAYER_HOME_MOM, Common_Movement_FacePlayer
 	msgbox PlayerHome_Text_TodaysTheDay
 	closemessage
