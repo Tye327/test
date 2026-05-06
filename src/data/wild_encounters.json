@@ -36580,7 +36580,7 @@
         },
         {
           "map": "MAP_ROUTE_1T",
-          "base_label": "gROUTE_1T_FireRed",
+          "base_label": "sROUTE_1T_FireRed",
           "land_mons": {
             "encounter_rate": 21,
             "mons": [

@@ -150,7 +150,7 @@ WondrousLab_EventScript_ChoseStarter::
 	call EventScript_RestorePrevTextColor
 	setflag FLAG_SYS_POKEMON_GET
 	createmon side=0, slot=6, species=PLAYER_STARTER_SPECIES, level=5, hpIv=31, atkIv=31, defIv=31, speedIv=31, spAtkIv=31, spDefIv=31
-	copyvar VAR_STARTER_MON, PLAYER_STARTER_NUM
+	copyvar VAR_STARTER_MON_FRLG, PLAYER_STARTER_NUM
 	bufferspeciesname STR_VAR_1, PLAYER_STARTER_SPECIES
 	message WondrousLab_Text_ReceivedMonFromProf
 	waitmessage
