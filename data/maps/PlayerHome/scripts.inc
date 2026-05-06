@@ -7,9 +7,26 @@ PlayerHome_OnWarp::
 	map_script_2 VAR_MAP_SCENE_WONDROUS_LAB, 0, PlayerHome_EventScript_PreparePlayerForStarterScene
 	.2byte 0
 
+PlayerHome_EventScript_PreparePlayerForStarterScene::
+	turnobject LOCALID_PLAYER, DIR_SOUTH
+	end
+
 PlayerHome_OnFrame::
 	map_script_2 VAR_MAP_SCENE_WONDROUS_LAB, 0, PlayerHome_EventScript_MomStarter
-	.byte 0
+	.2byte 0
+
+PlayerHome_EventScript_MomStarter::
+	applymovement LOCAL_ID_PLAYER_HOME_MOM, Common_Movement_FacePlayer
+	msgbox PlayerHome_Text_TodaysTheDay
+	closemessage
+	applymovement LOCAL_ID_PLAYER_HOME_MOM, PlayerHome_Movement_MomApproach
+	waitmovement 0
+	msgbox PlayerHome_Text_LetsGo
+	closemessage
+	warp MAP_WONDROUS_LAB, 8, 5
+	waitstate
+	releaseall
+	end
 
 PlayerHome_EventScript_Mom::
 	lock
@@ -24,23 +41,6 @@ PlayerHome_EventScript_MomHeal::
 	call Common_EventScript_OutOfCenterPartyHeal
 	msgbox PlayerHome_Text_LookingGreatTakeCare
 	release
-	end
-
-PlayerHome_EventScript_PreparePlayerForStarterScene::
-	turnobject LOCALID_PLAYER, DIR_SOUTH
-	end
-
-PlayerHome_EventScript_MomStarter::
-	applymovement LOCAL_ID_PLAYER_HOME_MOM, Common_Movement_FacePlayer
-	msgbox PlayerHome_Text_TodaysTheDay
-	closemessage
-	applymovement LOCAL_ID_PLAYER_HOME_MOM, PlayerHome_Movement_MomApproach
-	waitmovement 0
-	msgbox PlayerHome_Text_LetsGo
-	closemessage
-	warp MAP_WONDROUS_LAB, 8, 5
-	waitstate
-	releaseall
 	end
 
 PlayerHome_EventScript_Yukari::
