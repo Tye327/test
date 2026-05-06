@@ -166,7 +166,8 @@ WondrousLab_EventScript_ChoseStarter::
 WondrousLab_EventScript_GiveNicknameToStarter::
 	setvar VAR_0x8004, 0
 	call Common_EventScript_NameReceivedPartyMon
-	return
+	goto WondrousLab_EventScript_AfterStarterChoice
+	end
 
 WondrousLab_EventScript_AfterStarterChoice::
 	applymovement LOCALID_WLAB_PROF, WondrousLab_Movement_ProfTakesExtraStarters
